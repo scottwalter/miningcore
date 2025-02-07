@@ -15,68 +15,69 @@
 #define __BLAKE2_CONFIG_H__
 
 #if defined(_M_IX86_FP)
-#if _M_IX86_FP == 2
-#define HAVE_SSE2
-#ifndef HAVE_AVX
-#define HAVE_AVX
-#endif
-#endif
+    #if _M_IX86_FP == 2
+        #define HAVE_SSE2
+        #ifndef HAVE_AVX
+            #define HAVE_AVX
+        #endif
+    #endif
 #elif defined(_M_AMD64) || defined(_M_X64)
-#define HAVE_SSSE3
+    #define HAVE_SSSE3
 #endif
 
 // These don't work everywhere
-#if defined(__SSE2__)
-#define HAVE_SSE2
+#if defined(__SSE2__) 
+    #define HAVE_SSE2
 #endif
 
 #if defined(__SSSE3__)
-#define HAVE_SSSE3
+    #define HAVE_SSSE3
 #endif
 
 #if defined(__SSE4_1__)
-#define HAVE_SSE41
+    #define HAVE_SSE41
 #endif
 
 #if defined(__AVX__) || defined(__AVX2__)
-#define HAVE_AVX
+    #define HAVE_AVX
 #endif
 
 #if defined(__XOP__)
-#define HAVE_XOP
+    #define HAVE_XOP
 #endif
 
 
 #ifdef HAVE_AVX2
-#ifndef HAVE_AVX
-#define HAVE_AVX
-#endif
+    #ifndef HAVE_AVX
+        #define HAVE_AVX
+    #endif
 #endif
 
 #ifdef HAVE_XOP
-#ifndef HAVE_AVX
-#define HAVE_AVX
-#endif
+    #ifndef HAVE_AVX
+        #define HAVE_AVX
+    #endif
 #endif
 
 #ifdef HAVE_AVX
-#ifndef HAVE_SSE41
-#define HAVE_SSE41
-#endif
+    #ifndef HAVE_SSE41
+        #define HAVE_SSE41
+    #endif
 #endif
 
 #ifdef HAVE_SSE41
-#ifndef HAVE_SSSE3
-#define HAVE_SSSE3
-#endif
+    #ifndef HAVE_SSSE3
+        #define HAVE_SSSE3
+    #endif
 #endif
 
 #ifdef HAVE_SSSE3
-#define HAVE_SSE2
+    #define HAVE_SSE2
 #endif
 
 #if !defined(HAVE_SSE2)
-#error "This code requires at least SSE2."
+    #error "This code requires at least SSE2."
 #endif
 
 #endif
+
