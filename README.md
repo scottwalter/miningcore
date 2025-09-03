@@ -23,16 +23,16 @@
 
 Commercial support directly by the maintainer is available through [miningcore.pro](https://store.miningcore.pro).
 
-For general questions visit the [Discussions Area](https://github.com/blackmennewstyle/miningcore/discussions).
+For general questions visit the [Discussions Area](https://github.com/scottwalter/miningcore/discussions).
 
 ## Contributions
 
-Code contributions are very welcome and should be submitted as standard [pull requests](https://docs.github.com/en/pull-requests) (PR) based on the [`dev` branch](https://github.com/blackmennewstyle/miningcore/tree/dev).
+Code contributions are very welcome and should be submitted as standard [pull requests](https://docs.github.com/en/pull-requests) (PR) based on the [`dev` branch](https://github.com/scottwalter/miningcore/tree/dev).
 
 ## Building on Debian/Ubuntu
 
 ```console
-git clone https://github.com/blackmennewstyle/miningcore
+git clone https://github.com/scottwalter/miningcore
 cd miningcore
 ```
 
@@ -133,7 +133,7 @@ docker system prune -af
 
 ### Production OS
 
-Windows is **not** a supported production environment. Only Linux is. Please do not file issues related to running a pool on Windows. Windows topics should be posted under [discussions](https://github.com/blackmennewstyle/miningcore/discussions).
+Windows is **not** a supported production environment. Only Linux is. Please do not file issues related to running a pool on Windows. Windows topics should be posted under [discussions](https://github.com/scottwalter/miningcore/discussions).
 
 Running and developing Miningcore on Windows is of course supported.
 
@@ -195,7 +195,7 @@ Miningcore -c config.json
 
 ## Supported Currencies
 
-Refer to [this file](https://github.com/blackmennewstyle/miningcore/blob/master/src/Miningcore/coins.json) for a complete list.
+Refer to [this file](https://github.com/scottwalter/miningcore/blob/master/src/Miningcore/coins.json) for a complete list.
 
 ## Caveats
 
@@ -227,21 +227,4 @@ A public production pool requires a web-frontend for your users to check their h
 
 Once again, do not run a production pool on Windows! This is not a supported configuration.
 
-## Donations
 
-To support this project you can become a [sponsor]( https://github.com/sponsors//blackmennewstyle ) or send a donation to the following accounts:
-
-* ETH:   `0xbC059e88A4dD11c2E882Fc6B83F8Ec12E4CCCFad`
-* BTC:   `16xvkGfG9nrJSKKo5nGWphP8w4hr2ZzVuw`
-* LTC:   `LLs76baYT7iMqQhizxtBC96Cy48iX3Eh1p`
-* DOGE:  `DFuvDSFh4N3SiXGDnye2Vbc8kqvMHbyQE1`
-* KAS:   `kaspa:qpmf0wyu7c5z4l82ax9cfc5ughwk2f9lgu8uckkqrrpjqkxuk7yrga5nntvgn`
-* CCX:   `ccx7S4B3gBeH1SGWCfqZp3NM7Vavg7H3S8ovJn8fU4bwC4vU7ChWfHtbNzifhrpbJ74bMDxj4KZFTcznTfsucCEg1Kgv7zbNgs`
-* FIRO:  `a5AsoTSkfPHQ3SUmR6binG1XW7oQQoFNU1`
-* ERGO:  `9gYyuZzaSw3TiCtUkSRuS3XVDUv41EFs3dtNCFGqiEwHqpb7gkF`
-* WART:  `7795fc0fe93e7e4e232a212f00bdc8885c580a5666d39a0d`
-* XMR:   `483zaHtMRfM7rw1dXgebhWaRR8QLgAF6w4BomAV319FVVHfdbYTLVuBRc4pQgRAnRpfy6CXvvwngK4Lo3mRKE29RRx3Jb5c`
-* XEL:   `xel:ajnsfv065qusndt0hfsngecrnf5690drmqmc0uq0etlx8zjlcyzqq2slgvt`
-* CTXC:  `0xbb60200d5151a4a0f9a75014e04cf61a0a9f0daf`
-* ZANO:  `ZxDKT1aqiEXPA5cDADtYEfMR1oXsRd68bby4nzUvVmnjHzzrfvjwhNdQ9yiWNeGutzg9LZdwsbP2FGB1gNpZXiYY1fCfpw33c`
-* SCASH: `scash1qe6dhv8kncz08jtqukyps4l2n83z2umewanlmas`
