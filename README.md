@@ -1,8 +1,8 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/nbvaa55gu3icd1q8?svg=true)](https://ci.appveyor.com/project/oliverw/miningcore)
-[![.NET](https://github.com/blackmennewstyle/miningcore/actions/workflows/dotnet.yml/badge.svg)](https://github.com/blackmennewstyle/miningcore/actions/workflows/dotnet.yml)
+[![.NET](https://github.com/scottwalter/miningcore/actions/workflows/dotnet.yml/badge.svg)](https://github.com/scottwalter/miningcore/actions/workflows/dotnet.yml)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
-<img src="https://github.com/blackmennewstyle/miningcore/raw/master/logo.png" width="150">
+<img src="https://github.com/scottwalter/miningcore/raw/master/logo.png" width="150">
 
 ### Features
 
@@ -63,7 +63,7 @@ or
 Download and install the [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 
 ```dosbatch
-git clone https://github.com/blackmennewstyle/miningcore
+git clone https://github.com/scottwalter/miningcore
 cd miningcore
 build-windows.bat
 ```
@@ -77,7 +77,7 @@ build-windows.bat
 In case you don't want to install any dependencies then you can build the app using the official Microsoft .NET SDK Docker image.
 
 ```console
-git clone https://github.com/blackmennewstyle/miningcore
+git clone https://github.com/scottwalter/miningcore
 cd miningcore
 ```
 Then build using Docker:
